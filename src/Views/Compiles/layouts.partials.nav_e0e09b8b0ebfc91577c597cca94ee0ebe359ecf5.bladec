@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+<nav class="sidebar vertical-scroll  ps-container ps-theme-default ps-active-y">
+ <div class="logo d-flex justify-content-between">
+ <a href="index-2.html"><img src="<?php echo \htmlentities(asset('img/logo.png')??'', ENT_QUOTES, 'UTF-8', false); ?>" alt></a>
+ <div class="sidebar_close_icon d-lg-none">
+ <i class="ti-close"></i>
+ </div>
+ </div>
+ <ul id="sidebar_menu">
+ <li class="mm-active">
+ <a class="has-arrow" href="<?php echo \htmlentities(url('admin/')??'', ENT_QUOTES, 'UTF-8', false); ?>" aria-expanded="false">
+ <div class="icon_menu">
+ <img src="<?php echo \htmlentities(asset('img/menu-icon/dashboard.svg')??'', ENT_QUOTES, 'UTF-8', false); ?>" alt>
+ </div>
+ <span>Dashboard</span>
+ </a>
+ 
+ </li>
+
+ <li class>
+ <a href="<?php echo \htmlentities(url('admin/users/')??'', ENT_QUOTES, 'UTF-8', false); ?>" aria-expanded="false">
+ <div class="icon_menu">
+ <img src="<?php echo \htmlentities(asset('img/menu-icon/5.svg')??'', ENT_QUOTES, 'UTF-8', false); ?>" alt>
+ </div>
+ <span>User</span>
+ </a>
+ </li>
+ <li class>
+ <a href="<?php echo \htmlentities(url('admin/products/')??'', ENT_QUOTES, 'UTF-8', false); ?>" aria-expanded="false">
+ <div class="icon_menu">
+ <img src="<?php echo \htmlentities(asset('img/menu-icon/5.svg')??'', ENT_QUOTES, 'UTF-8', false); ?>" alt>
+ </div>
+ <span>Product</span>
+ </a>
+ </li>
+ <li class>
+ <a href="<?php echo \htmlentities(url('admin/categories/')??'', ENT_QUOTES, 'UTF-8', false); ?>" aria-expanded="false">
+ <div class="icon_menu">
+ <img src="<?php echo \htmlentities(asset('img/menu-icon/5.svg')??'', ENT_QUOTES, 'UTF-8', false); ?>" alt>
+ </div>
+ <span>Category</span>
+ </a>
+ </li>
+ 
+ </ul>
+</nav>
